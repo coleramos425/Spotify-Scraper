@@ -10,4 +10,4 @@ Must install following python packages:
 * requests
 
 ## Usage
-Once you've installed required packages, all you have to to is input a url to a public Spotify playlist.
+Once you've installed required packages, all you have to to is input a url to a public Spotify playlist. A localized copy will then be downloaded to your current directory.
