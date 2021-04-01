@@ -48,4 +48,6 @@ for aSong in song_list:
 ##-- playlist_songs now populated --##
 
 for song in playlist_songs:
-    os.system('youtube-dl --extract-audio --audio-format mp3 ytsearch:\'' + song.get_info() + '\'')
+    os.system('youtube-dl --add-metadata --extract-audio --audio-format mp3 ytsearch:\'' + song.get_info() + '\'')
+    # edit download preferences above. Audio quality set to HIGH as default
+    # see list of download preferences at https://github.com/ytdl-org/youtube-dl
